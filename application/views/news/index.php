@@ -6,6 +6,6 @@
 <div class="main"><?php echo $newsItem['text']; ?>
 </div>
 
-<p><a href = "<?php echo $newsItem['slug'] ?>">View Article</a></p>
+<p><a href = "news/<?php echo $newsItem['slug'] ?>">View Article</a></p>
 
 <?php endforeach ?>
